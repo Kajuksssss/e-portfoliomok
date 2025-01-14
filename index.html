@@ -10,24 +10,28 @@
             margin: 0;
             padding: 0;
             line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
         }
         header {
-            background: #004d99;
+            background: #6B4F4F;
             color: white;
             padding: 1rem 0;
             text-align: center;
         }
         nav {
-            background: #0073e6;
+            background: #D1A7A7;
             color: white;
             display: flex;
             justify-content: center;
             padding: 0.5rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
         nav a {
             color: white;
             text-decoration: none;
             margin: 0 1rem;
+            font-weight: bold;
         }
         nav a:hover {
             text-decoration: underline;
@@ -36,13 +40,45 @@
             padding: 2rem;
             margin: auto;
             max-width: 800px;
+            background: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-bottom: 1rem;
         }
         footer {
-            background: #004d99;
+            background: #6B4F4F;
             color: white;
             text-align: center;
             padding: 1rem 0;
             margin-top: 2rem;
+        }
+        .hero {
+            width: 100%;
+            max-height: 300px;
+            overflow: hidden;
+            margin-bottom: 2rem;
+        }
+        .hero img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        h2 {
+            color: #6B4F4F;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 0.5rem;
+        }
+        ul li a {
+            color: #D1A7A7;
+            text-decoration: none;
+        }
+        ul li a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -50,6 +86,10 @@
     <header>
         <h1>Pedagogo e-portfolio</h1>
     </header>
+
+    <div class="hero">
+        <img src="./hero_image.png" alt="Cult of Pedagogy logotipas">
+    </div>
 
     <nav>
         <a href="#apie-mane">Apie mane</a>
@@ -67,13 +107,28 @@
 
     <section id="kompetencijos">
         <h2>Kompetencijos</h2>
+        <h3>1. Veikimo kartu kompetencija</h3>
         <ul>
-            <li>Mokinių mokymosi stebėjimas ir refleksija.</li>
-            <li>Efektyvus bendravimas su mokiniais.</li>
-            <li>Technologijų taikymas ugdyme.</li>
-            <li>Komandinis darbas.</li>
-            <li>Pedagoginės praktikos valdymas ir stebėjimas.</li>
+            <li><strong>Bendradarbiavimas:</strong> Prisidėjau organizuojant veiklas, tokias kaip ekskursija į Kauno senamiestį, kur mokiniai mokėsi dirbti grupėse ir diskutuoti anglų kalba.</li>
+            <li><strong>Vadovavimas:</strong> Pamokų vadavimo metu sprendžiau organizacinius ir edukacinius iššūkius.</li>
+            <li><strong>Komandinio darbo skatinimas:</strong> Skatinau mokinius diskusijose dalintis savo įžvalgomis apie istorinius įvykius ir geografinius procesus.</li>
         </ul>
+        <h3>2. Emocinės-motyvacinės kompetencijos</h3>
+        <ul>
+            <li><strong>Mokinių motyvavimas:</strong> Prisidėjau organizuojant Kazio Griniaus minėjimą, įtraukiant mokinius į renginio planavimą ir dalyvavimą.</li>
+            <li><strong>Pasitikėjimo kūrimas:</strong> Klasės valandėlėse skatinau mokinius atvirai dalintis mintimis ir aptarti savo tikslus.</li>
+        </ul>
+        <h3>3. Pedagoginės sąveikos kompetencija</h3>
+        <ul>
+            <li><strong>Pozityvių santykių kūrimas:</strong> Bendraudamas su mokiniais, skatinau jų pasitikėjimą savimi ir ugdymo procesu.</li>
+            <li><strong>Klasės dinamika:</strong> Vadovaudamas pamokoms, palaikiau drausmę ir sukūriau produktyvią mokymosi aplinką.</li>
+        </ul>
+        <h3>4. Kognityvinės kompetencijos</h3>
+        <ul>
+            <li><strong>Pamokų planavimas:</strong> Prisidėjau prie istorijos ir geografijos pamokų planavimo.</li>
+            <li><strong>Analitinis mąstymas:</strong> Skatinau mokinius kritiškai analizuoti istorinius įvykius ir geografinius reiškinius.</li>
+        </ul>
+        <p>Praktikos metu įgytos kompetencijos sustiprino mano pedagoginius įgūdžius ir paskatino toliau tobulėti profesinėje srityje.</p>
     </section>
 
     <section id="tinklarastis">
@@ -81,7 +136,7 @@
         <p>Dalinimasis mintimis apie švietimo iššūkius, sprendimus ir naujas idėjas.</p>
         <ul>
             <li><a href="./files/Pedagoginės%20situacijos%20aprašymas.docx" download="Pedagoginės situacijos aprašymas.docx">
-                Atsisiųsti: Pedagoginės situacijos aprašymas
+                ⬇ Pedagoginės situacijos aprašymas
             </a></li>
         </ul>
     </section>
@@ -91,58 +146,46 @@
         <h3>Istorijos pamokos stebėjimo formos</h3>
         <ul>
             <li><a href="./files/Istorijos%20pamokos%20sebejimo%20forma.docx" download="Istorijos pamokos stebėjimo forma.docx">
-                Atsisiųsti: Istorijos pamokos stebėjimo forma
+                ⬇ Istorijos pamokos stebėjimo forma
             </a></li>
             <li><a href="./files/Istorijos%20pamokos%20sebejimo%20forma%202.docx" download="Istorijos pamokos stebėjimo forma 2.docx">
-                Atsisiųsti: Istorijos pamokos stebėjimo forma 2
+                ⬇ Istorijos pamokos stebėjimo forma 2
             </a></li>
         </ul>
         <h3>Geografijos pamokos stebėjimo formos</h3>
         <ul>
             <li><a href="./files/Geografijos%20pamokos%20sebejimo%20forma%20.docx" download="Geografijos pamokos stebėjimo forma.docx">
-                Atsisiųsti: Geografijos pamokos stebėjimo forma
+                ⬇ Geografijos pamokos stebėjimo forma
             </a></li>
             <li><a href="./files/Geografijos%20pamokos%20sebejimo%20forma%202.docx" download="Geografijos pamokos stebėjimo forma 2.docx">
-                Atsisiųsti: Geografijos pamokos stebėjimo forma 2
+                ⬇ Geografijos pamokos stebėjimo forma 2
             </a></li>
         </ul>
-        <h3>Veikla</h3>
+        <h3>Integruota anglų kalbos ir istorijos pamoka</h3>
         <ul>
             <li><a href="https://www.kaziogriniausgimnazija.lt/gimnazija/2024-12/netradicine-integruota-anglu-kalbos-istorijos-pamoka/" target="_blank">
-                Veikla: Integruota anglų kalbos ir istorijos pamoka
+                Integruota anglų kalbos ir istorijos pamoka
             </a></li>
         </ul>
         <h3>Metodinė medžiaga</h3>
         <ul>
             <li><a href="./files/Užduotis.docx" download="Užduotis.docx">
-                Atsisiųsti: Užduotis
+                ⬇ Užduotis
             </a></li>
-            <li><a href="./files/Politinė%20situacija%20ir%20jakobinų%20iškilimas.docx" download="Politinė situacija ir jakobinų iškilimas.docx">
-                Atsisiųsti: Politinė situacija ir jakobinų iškilimas
+            <li><a href="./files/Politinė%20situacija%20ir%20jakobinų%20iškilimas.docx" download="Politinė situacija ir jakobinų iškilimas.docx">
+                ⬇ Politinė situacija ir jakobinų iškilimas
             </a></li>
-            <li><a href="./files/Didžioji%20Prancūzijos%20revoliucija.pptx" download="Didžioji Prancūzijos revoliucija.pptx">
-                Atsisiųsti: Didžioji Prancūzijos revoliucija
+            <li><a href="./files/Didžioji%20Prancūzijos%20revoliucija.pptx" download="Didžioji Prancūzijos revoliucija.pptx">
+                ⬇ Didžioji Prancūzijos revoliucija
             </a></li>
             <li><a href="./files/Kazys%20Grinius.docx" download="Kazys Grinius.docx">
-                Atsisiųsti: Kazys Grinius
+                ⬇ Kazys Grinius
             </a></li>
         </ul>
         <h3>Kita medžiaga</h3>
         <ul>
             <li><a href="./files/ASISTENTO%20PEDAGOGINĖS%20PRAKTIKOS%20REFLEKSIJA.docx" download="ASISTENTO PEDAGOGINĖS PRAKTIKOS REFLEKSIJA.docx">
-                Atsisiųsti: Asistento pedagoginės praktikos refleksija
+                ⬇ Asistento pedagoginės praktikos refleksija
             </a></li>
         </ul>
-    </section>
-
-    <section id="kontaktai">
-        <h2>Kontaktai</h2>
-        <p>Kajus Pėža</p>
-        <p>El. paštas: <a href="mailto:kajusxzp@gmail.com">kajusxzp@gmail.com</a></p>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Pedagogo e-portfolio</p>
-    </footer>
-</body>
-</html>
+   
